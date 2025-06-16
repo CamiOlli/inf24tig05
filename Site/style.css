@@ -202,7 +202,6 @@ section{
 
 .long {
   width: 31%;
-  height: 1000px;
   margin: 5px;
   float: left;
   position: static;
@@ -270,6 +269,13 @@ a:visited{
 }
 h2 {
   text-align: center;
+}
+
+em{
+  color: #F27A5E;
+}
+strong{
+  color: #7479dd;
 }
 
 /*CONTACT US*/
