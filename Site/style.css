@@ -377,6 +377,38 @@ form input:required:valid + .hint {display: none;}
   margin-top: 12px;
 }
 
+/*SCHEDULE*/
+th, td{
+  border: 2px solid #919090;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border-collapse: collapse;
+  width: 15%;
+}
+table{ 
+  width: 100%;
+  padding: 25px;
+  text-align: center;
+}
+#invisivel{
+  border-color: transparent;
+  background-color: transparent;
+}
+.days{
+  background-color: #7479dd;
+  color: white;
+  border-color: #4c509c;
+}
+.hours{
+  background-color: #9fc6db;
+  color: white;
+  border-color: #6494ad;
+}
+.lunch{
+  height: 0%;
+  border-color: transparent;
+  background-color: #7479dd;
+}
+
 @media (min-width:768px) {
   .layout-grid {
         grid-template-columns: 1fr 1fr;
@@ -426,7 +458,6 @@ input,
 textarea,
 keygen,
 select,
-table,
 .hd-border,
 fieldset,
 .checkbox > input[type="checkbox"] + label:before,
@@ -539,45 +570,6 @@ button {
   color: white;
 }
 
-/* Tables */
-thead tr th {
-  border-bottom: 2px solid #919090;
-  box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
-  border-radius: 0 0 225px 0/0 0 15px 0;
-}
-
-tfoot tr td {
-  border-top: 2px solid #919090;
-  box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
-  border-radius: 0 0 225px 0/0 0 15px 0;
-  border-radius: 255px 0 0 0/15px 0 0 0;
-}
-
-td,
-th {
-  padding: 0.4rem;
-}
-
-/* ul li {
-  list-style: none;
-  position: relative;
-}
-
-ul li:before {
-  font-family: icons;
-  content: "\E02D";
-  position: absolute;
-  top: -0.4rem;
-  left: -1.3rem;
-  font-size: 0.7rem;
-} */
-
-/**
- * http://blog.felixhagspiel.de/index.php/posts/custom-inputs
- */
-/**
- * Checkboxes & radios
- */
 .checkbox, .radio {
   display: inline;
 }
