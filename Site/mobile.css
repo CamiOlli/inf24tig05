@@ -266,18 +266,18 @@ footer>div {
 
 }
 
-#socialmedia {
+.socialmedia {
   width: 30%;
   float: left;
   margin: 30px 0px 0px 20px;
 }
 
-.socialmedia {
+.socialmediaicons {
   width: 60px;
   margin: 5px;
 }
 
-#socialmedia>a>img:hover {
+.socialmedia>a>img:hover {
   border-radius: 50px;
   background-color: #F27A5E;
   ;
@@ -328,7 +328,7 @@ figcaption {
   color: white;
 }
 
-[color="yellow"] {
+[title="yellow"] {
   background-color: #ffcc5f;
 }
 
@@ -492,16 +492,7 @@ form input:required:valid+.hint {
   border: 2px solid #41403E;
   box-shadow: 5px 10px 10px #919090;
   text-align: center;
-}
-
-#R,
-#R>img {
   border-radius: 15px 255px 15px 225px/225px 15px 255px 15px;
-}
-
-#L,
-#L>img {
-  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 }
 
 .widgetBlock:hover {
