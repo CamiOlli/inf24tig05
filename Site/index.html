@@ -3,10 +3,23 @@
 
 <head>
     <title>Home</title>
-    <link rel="stylesheet" href="mobile.css" type="text/css" media="screen and (max-width: 640px)" />
-    <link rel="stylesheet" href="tablet.css" type="text/css" media="screen and (min-width: 641px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="mobile.css" type="text/css" media="screen and (max-width: 724px)" />
+    <link rel="stylesheet" href="tablet.css" type="text/css"
+        media="screen and (min-width: 725px) and (max-width: 1024px)">
     <link rel="stylesheet" href="pc.css" type="text/css" media="screen and (min-width: 1025px)">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("links");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -14,23 +27,33 @@
         <nav>
             <a id="top"></a>
             <a href="index.html"><img src="Imgs/logo.png" alt="Bullet Study's logo" id="logo"></a>
-            <a class="menu"><img
-                    src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/TXkgQnVqbw/hateyourwriting.png?r=fs&h=45&w=1250&fg=FFFFFF&bg=884444&tb=1&s=36"
-                    alt="Link to My Bujo"></a>
-            <a href="schedule.html" class="menu"><img
-                    src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/U2NoZWR1bGU/hateyourwriting.png?r=fs&h=45&w=1250&fg=FFFFFF&bg=884444&tb=1&s=36"
-                    alt="Link to Schedule"></a>
-            <a class="menu"><img
-                    src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/Q2FsZW5kYXI/hateyourwriting.png?r=fs&h=45&w=1250&fg=FFFFFF&bg=884444&tb=1&s=36"
-                    alt="Link to Calendar"></a>
-            <a href="widgets.html" class="menu"><img
-                    src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/V2lkZ2V0cw/hateyourwriting.png?r=fs&h=45&w=1250&fg=FFFFFF&bg=884444&tb=1&s=36"
-                    alt="Link to Widgets"></a>
-            <a href="contact.html" class="menu"><img
-                    src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/Q29udGFjdCB1cw/hateyourwriting.png?r=fs&h=45&w=1250&fg=FFFFFF&bg=884444&tb=1&s=36"
-                    alt="Link to Contact us"></a>
-            <button class="buttonNav">Try for free</button>
-            <button class="buttonNav">Sign in</button>
+            <div id="topnav">
+                <a href="javascript:void(0);" class="burger" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div id="links">
+                    <a class="menu"><img
+                            src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/TXkgQnVqbw/hateyourwriting.png?r=fs&h=45&w=1250&fg=FFFFFF&bg=884444&tb=1&s=36"
+                            alt="Link to My Bujo"></a>
+                    <a href="schedule.html" class="menu"><img
+                            src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/U2NoZWR1bGU/hateyourwriting.png?r=fs&h=45&w=1250&fg=FFFFFF&bg=884444&tb=1&s=36"
+                            alt="Link to Schedule"></a>
+                    <a class="menu"><img
+                            src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/Q2FsZW5kYXI/hateyourwriting.png?r=fs&h=45&w=1250&fg=FFFFFF&bg=884444&tb=1&s=36"
+                            alt="Link to Calendar"></a>
+                    <a href="widgets.html" class="menu"><img
+                            src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/V2lkZ2V0cw/hateyourwriting.png?r=fs&h=45&w=1250&fg=FFFFFF&bg=884444&tb=1&s=36"
+                            alt="Link to Widgets"></a>
+                    <a href="contact.html" class="menu"><img
+                            src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/Q29udGFjdCB1cw/hateyourwriting.png?r=fs&h=45&w=1250&fg=FFFFFF&bg=884444&tb=1&s=36"
+                            alt="Link to Contact us"></a>
+
+                    <button class="buttonNav">Try for free</button>
+                    <button class="buttonNav">Sign in</button>
+                </div>
+
+
+            </div>
         </nav>
 
         <header>
