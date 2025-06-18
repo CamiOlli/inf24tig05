@@ -3,13 +3,15 @@
 
 <head>
     <title>Contact us</title>
-    <link rel="STYLESHEET" href="style.css" type="text/css">
+    <link rel="stylesheet" href="mobile.css" type="text/css" media="screen and (max-width: 640px)" />
+    <link rel="stylesheet" href="pc.css" type="text/css" media="screen and (min-width:641px)">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter" />
 </head>
 
 <body>
     <div class="layout-grid">
         <nav>
+            <a id="top"></a>
             <a href="index.html"><img src="Imgs/logo.png" alt="Bullet Study's logo" id="logo"></a>
             <a class="menu"><img
                     src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/TXkgQnVqbw/hateyourwriting.png?r=fs&h=45&w=1250&fg=FFFFFF&bg=884444&tb=1&s=36"
@@ -40,24 +42,26 @@
         </header>
 
         <main>
-            <h1>Contact Form</h1>
+            <section id="form">
+                <h1>Contact Form</h1>
 
-            <form action="formdata/" method="post">
-                <span class="required">* Denotes Required Field</span><br>
-                <label for="name">Name<span class="required"><sup>*</sup></span></label><br>
-                <input type="text" id="name" name="user_name" placeholder="John Doe" required><br>
+                <form>
+                    <span class="required">* Denotes Required Field</span><br>
+                    <label for="name">Name<span class="required"><sup>*</sup></span></label><br>
+                    <input type="text" id="name" name="user_name" placeholder="John Doe" required><br>
 
-                <label for="mail">E-mail<span class="required"><sup>*</sup></span></label><br>
-                <input type="email" id="mail" name="user_mail" placeholder="john_doe@example.com" required>
-                <span class="hint">Proper format "name@something.com"</span><br>
+                    <label for="mail">E-mail<span class="required"><sup>*</sup></span></label><br>
+                    <input type="email" id="mail" name="user_mail" placeholder="john_doe@example.com" required>
+                    <span class="hint">Proper format "name@something.com"</span><br>
 
-                <label for="msg">Message<span class="required"><sup>*</sup></span></label><br>
-                <textarea id="msg" name="user_message" placeholder="Your message" required cols="40"
-                    rows="6"></textarea><br>
+                    <label for="msg">Message<span class="required"><sup>*</sup></span></label><br>
+                    <textarea id="msg" name="user_message" placeholder="Your message" required cols="40"
+                        rows="6"></textarea><br>
 
-                <!-- <input type="submit"> -->
-                <button class="submit" name="submit" type="submit">Send your message</button>
-            </form>
+                    <!-- <input type="submit"> -->
+                    <button class="submit" name="submit" type="submit">Send your message</button>
+                </form>
+            </section>
         </main>
 
         <aside class="left">
@@ -65,6 +69,7 @@
             <div class="bottomgradient"> </div>
         </aside>
         <aside class="right">
+            <a href="#top" id="topbutton">Back to the top!</a>
             <div class="topgradient"> </div>
             <div class="bottomgradient"> </div>
         </aside>
