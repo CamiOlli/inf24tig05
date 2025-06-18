@@ -349,9 +349,7 @@ figcaption {
 
 ul li {
   list-style-image: url(Imgs/scribbles/list_resized.png);
-
 }
-
 ul li li {
   list-style-image: url(Imgs/scribbles/nestedlist_resized.png);
 }
