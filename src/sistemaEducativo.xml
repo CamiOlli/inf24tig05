@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SistemaEducativo
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="sistemaEducativo.xsd">
+
+    <CicloEnsino nome="Primeiro Ciclo" anos="1-4">
+        <AnoEscolaridade numero="1">
+            <Disciplina nome="Português" cargaHoraria="10"/>
+            <Disciplina nome="Matemática" cargaHoraria="8"/>
+            <Disciplina nome="Estudo do Meio" cargaHoraria="5"/>
+            <Disciplina nome="Educação Física" cargaHoraria="2"/>
+            <Disciplina nome="Educação Artística" cargaHoraria="2"/>
+        </AnoEscolaridade>
+        <AnoEscolaridade numero="2">
+            <Disciplina nome="Português" cargaHoraria="10"/>
+            <Disciplina nome="Matemática" cargaHoraria="8"/>
+            <Disciplina nome="Estudo do Meio" cargaHoraria="5"/>
+            <Disciplina nome="Educação Física" cargaHoraria="2"/>
+            <Disciplina nome="Educação Artística" cargaHoraria="2"/>
+        </AnoEscolaridade>
+        <AnoEscolaridade numero="3">
+            <Disciplina nome="Português" cargaHoraria="8"/>
+            <Disciplina nome="Matemática" cargaHoraria="6"/>
+            <Disciplina nome="Estudo do Meio" cargaHoraria="4"/>
+            <Disciplina nome="Educação Física" cargaHoraria="2"/>
+            <Disciplina nome="Educação Artística" cargaHoraria="2"/>
+            <Disciplina nome="Inglês" cargaHoraria="2"/>
+        </AnoEscolaridade>
+        <AnoEscolaridade numero="4">
+            <Disciplina nome="Português" cargaHoraria="8"/>
+            <Disciplina nome="Matemática" cargaHoraria="6"/>
+            <Disciplina nome="Estudo do Meio" cargaHoraria="4"/>
+            <Disciplina nome="Educação Física" cargaHoraria="2"/>
+            <Disciplina nome="Educação Artística" cargaHoraria="2"/>
+            <Disciplina nome="Inglês" cargaHoraria="2"/>
+        </AnoEscolaridade>
+    </CicloEnsino>
+
+    <CicloEnsino nome="Segundo Ciclo" anos="5-6">
+        <AnoEscolaridade numero="5">
+            <Disciplina nome="Português" cargaHoraria="5"/>
+            <Disciplina nome="Matemática" cargaHoraria="5"/>
+            <Disciplina nome="Ciências Naturais" cargaHoraria="3"/>
+            <Disciplina nome="História e Geografia de Portugal" cargaHoraria="3"/>
+            <Disciplina nome="Inglês" cargaHoraria="3"/>
+            <Disciplina nome="Educação Visual e Tecnológica" cargaHoraria="2"/>
+            <Disciplina nome="Educação Física" cargaHoraria="2"/>
+            <Disciplina nome="Educação Musical" cargaHoraria="2"/>
+            <Disciplina nome="Cidadania e Desenvolvimento" cargaHoraria="1"/>
+        </AnoEscolaridade>
+        <AnoEscolaridade numero="6">
+            <Disciplina nome="Português" cargaHoraria="5"/>
+            <Disciplina nome="Matemática" cargaHoraria="5"/>
+            <Disciplina nome="Ciências Naturais" cargaHoraria="3"/>
+            <Disciplina nome="História e Geografia de Portugal" cargaHoraria="3"/>
+            <Disciplina nome="Inglês" cargaHoraria="3"/>
+            <Disciplina nome="Educação Visual e Tecnológica" cargaHoraria="2"/>
+            <Disciplina nome="Educação Física" cargaHoraria="2"/>
+            <Disciplina nome="Educação Musical" cargaHoraria="2"/>
+            <Disciplina nome="Cidadania e Desenvolvimento" cargaHoraria="1"/>
+        </AnoEscolaridade>
+    </CicloEnsino>
+
+    <CicloEnsino nome="Terceiro Ciclo" anos="7-9">
+        <AnoEscolaridade numero="7">
+            <Disciplina nome="Português" cargaHoraria="5"/>
+            <Disciplina nome="Matemática" cargaHoraria="5"/>
+            <Disciplina nome="Ciências Naturais" cargaHoraria="3"/>
+            <Disciplina nome="História" cargaHoraria="3"/>
+            <Disciplina nome="Geografia" cargaHoraria="3"/>
+            <Disciplina nome="Inglês" cargaHoraria="3"/>
+            <Disciplina nome="Francês / Espanhol" cargaHoraria="3"/>
+            <Disciplina nome="Educação Visual" cargaHoraria="2"/>
+            <Disciplina nome="Educação Tecnológica" cargaHoraria="2"/>
+            <Disciplina nome="Educação Física" cargaHoraria="2"/>
+            <Disciplina nome="Cidadania e Desenvolvimento" cargaHoraria="1"/>
+        </AnoEscolaridade>
+        <AnoEscolaridade numero="8">
+            <Disciplina nome="Português" cargaHoraria="5"/>
+            <Disciplina nome="Matemática" cargaHoraria="5"/>
+            <Disciplina nome="Ciências Físico-Químicas" cargaHoraria="3"/>
+            <Disciplina nome="História" cargaHoraria="3"/>
+            <Disciplina nome="Geografia" cargaHoraria="3"/>
+            <Disciplina nome="Inglês" cargaHoraria="3"/>
+            <Disciplina nome="Francês / Espanhol" cargaHoraria="3"/>
+            <Disciplina nome="Educação Visual" cargaHoraria="2"/>
+            <Disciplina nome="Educação Tecnológica" cargaHoraria="2"/>
+            <Disciplina nome="Educação Física" cargaHoraria="2"/>
+            <Disciplina nome="Cidadania e Desenvolvimento" cargaHoraria="1"/>
+        </AnoEscolaridade>
+        <AnoEscolaridade numero="9">
+            <Disciplina nome="Português" cargaHoraria="5"/>
+            <Disciplina nome="Matemática" cargaHoraria="5"/>
+            <Disciplina nome="Ciências Naturais" cargaHoraria="3"/>
+            <Disciplina nome="Ciências Físico-Químicas" cargaHoraria="3"/>
+            <Disciplina nome="História" cargaHoraria="3"/>
+            <Disciplina nome="Geografia" cargaHoraria="3"/>
+            <Disciplina nome="Inglês" cargaHoraria="3"/>
+            <Disciplina nome="Francês / Espanhol" cargaHoraria="3"/>
+            <Disciplina nome="Educação Visual" cargaHoraria="2"/>
+            <Disciplina nome="Educação Tecnológica" cargaHoraria="2"/>
+            <Disciplina nome="Educação Física" cargaHoraria="2"/>
+            <Disciplina nome="Cidadania e Desenvolvimento" cargaHoraria="1"/>
+        </AnoEscolaridade>
+    </CicloEnsino>
+
+    <CicloEnsino nome="Ensino Secundário" anos="10-12">
+        <AreaEstudo nome="Ciências e Tecnologias">
+            <AnoEscolaridade numero="10">
+                <Disciplina nome="Português" cargaHoraria="4"/>
+                <Disciplina nome="Matemática A" cargaHoraria="5"/>
+                <Disciplina nome="Física e Química A" cargaHoraria="4"/>
+                <Disciplina nome="Inglês" cargaHoraria="3"/>
+                <Disciplina nome="Educação Física" cargaHoraria="2"/>
+                <Disciplina nome="Filosofia" cargaHoraria="3"/>
+            </AnoEscolaridade>
+            <AnoEscolaridade numero="11">
+                <Disciplina nome="Português" cargaHoraria="4"/>
+                <Disciplina nome="Matemática A" cargaHoraria="5"/>
+                <Disciplina nome="Biologia e Geologia" cargaHoraria="4"/>
+                <Disciplina nome="Física e Química A" cargaHoraria="4"/>
+                <Disciplina nome="Inglês" cargaHoraria="3"/>
+                <Disciplina nome="Educação Física" cargaHoraria="2"/>
+            </AnoEscolaridade>
+            <AnoEscolaridade numero="12">
+                <Disciplina nome="Português" cargaHoraria="4"/>
+                <Disciplina nome="Matemática A" cargaHoraria="5"/>
+                <Disciplina nome="Biologia e Geologia" cargaHoraria="4"/>
+                <Disciplina nome="Física e Química A" cargaHoraria="4"/>
+                <Disciplina nome="Educação Física" cargaHoraria="2"/>
+                <Disciplina nome="Filosofia" cargaHoraria="3"/>
+            </AnoEscolaridade>
+        </AreaEstudo>
+
+        <AreaEstudo nome="Artes Visuais">
+            <AnoEscolaridade numero="10">
+                <Disciplina nome="Português" cargaHoraria="4"/>
+                <Disciplina nome="Filosofia" cargaHoraria="3"/>
+                <Disciplina nome="História da Cultura e das Artes" cargaHoraria="4"/>
+                <Disciplina nome="Desenho A" cargaHoraria="6"/>
+                <Disciplina nome="Educação Física" cargaHoraria="2"/>
+                <Disciplina nome="Matemática Aplicada às Artes" cargaHoraria="3"/>
+            </AnoEscolaridade>
+            <AnoEscolaridade numero="11">
+                <Disciplina nome="Português" cargaHoraria="4"/>
+                <Disciplina nome="Filosofia" cargaHoraria="3"/>
+                <Disciplina nome="História da Cultura e das Artes" cargaHoraria="4"/>
+                <Disciplina nome="Geometria Descritiva A" cargaHoraria="6"/>
+                <Disciplina nome="Educação Física" cargaHoraria="2"/>
+                <Disciplina nome="Desenho A" cargaHoraria="6"/>
+            </AnoEscolaridade>
+            <AnoEscolaridade numero="12">
+                <Disciplina nome="Português" cargaHoraria="4"/>
+                <Disciplina nome="Filosofia" cargaHoraria="3"/>
+                <Disciplina nome="História da Cultura e das Artes" cargaHoraria="4"/>
+                <Disciplina nome="Educação Física" cargaHoraria="2"/>
+                <Disciplina nome="Desenho A" cargaHoraria="6"/>
+                <Disciplina nome="Oficina de Artes" cargaHoraria="6"/>
+            </AnoEscolaridade>
+        </AreaEstudo>
+
+        <AreaEstudo nome="Línguas e Humanidades">
+            <AnoEscolaridade numero="10">
+                <Disciplina nome="Português" cargaHoraria="4"/>
+                <Disciplina nome="História A" cargaHoraria="4"/>
+                <Disciplina nome="Geografia A" cargaHoraria="4"/>
+                <Disciplina nome="Filosofia" cargaHoraria="3"/>
+                <Disciplina nome="Inglês" cargaHoraria="3"/>
+                <Disciplina nome="Educação Física" cargaHoraria="2"/>
+                <Disciplina nome="Matemática Aplicada às Ciências Sociais" cargaHoraria="3"/>
+            </AnoEscolaridade>
+            <AnoEscolaridade numero="11">
+                <Disciplina nome="Português" cargaHoraria="4"/>
+                <Disciplina nome="História A" cargaHoraria="4"/>
+                <Disciplina nome="Geografia A" cargaHoraria="4"/>
+                <Disciplina nome="Filosofia" cargaHoraria="3"/>
+                <Disciplina nome="Inglês" cargaHoraria="3"/>
+                <Disciplina nome="Educação Física" cargaHoraria="2"/>
+                <Disciplina nome="Literatura Portuguesa" cargaHoraria="4"/>
+            </AnoEscolaridade>
+            <AnoEscolaridade numero="12">
+                <Disciplina nome="Português" cargaHoraria="4"/>
+                <Disciplina nome="História A" cargaHoraria="4"/>
+                <Disciplina nome="Geografia A" cargaHoraria="4"/>
+                <Disciplina nome="Filosofia" cargaHoraria="3"/>
+                <Disciplina nome="Educação Física" cargaHoraria="2"/>
+                <Disciplina nome="Literatura Portuguesa" cargaHoraria="4"/>
+            </AnoEscolaridade>
+        </AreaEstudo>
+
+    </CicloEnsino>
+
+</SistemaEducativo>

@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="mobile.css" type="text/css" media="screen and (max-width: 724px)" />
+    <link rel="stylesheet" href="tablet.css" type="text/css"
+        media="screen and (min-width: 725px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="pc.css" type="text/css" media="screen and (min-width: 1025px)">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("links");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="layout-grid">
+        <nav>
+            <a id="top"></a>
+            <a href="index.html"><img src="Imgs/logo.png" alt="Bullet Study's logo" id="logo"></a>
+            <div id="topnav">
+                <a href="javascript:void(0);" class="burger" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div id="links">
+                    <a class="menu"><img
+                            src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/TXkgQnVqbw/hateyourwriting.png?r=fs&h=45&w=1250&fg=FFFFFF&bg=884444&tb=1&s=36"
+                            alt="Link to My Bujo"></a>
+                    <a href="schedule.html" class="menu"><img
+                            src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/U2NoZWR1bGU/hateyourwriting.png?r=fs&h=45&w=1250&fg=FFFFFF&bg=884444&tb=1&s=36"
+                            alt="Link to Schedule"></a>
+                    <a class="menu"><img
+                            src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/Q2FsZW5kYXI/hateyourwriting.png?r=fs&h=45&w=1250&fg=FFFFFF&bg=884444&tb=1&s=36"
+                            alt="Link to Calendar"></a>
+                    <a href="widgets.html" class="menu"><img
+                            src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/V2lkZ2V0cw/hateyourwriting.png?r=fs&h=45&w=1250&fg=FFFFFF&bg=884444&tb=1&s=36"
+                            alt="Link to Widgets"></a>
+                    <a href="contact.html" class="menu"><img
+                            src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/Q29udGFjdCB1cw/hateyourwriting.png?r=fs&h=45&w=1250&fg=FFFFFF&bg=884444&tb=1&s=36"
+                            alt="Link to Contact us"></a>
+
+                    <button class="buttonNav">Try for free</button>
+                    <button class="buttonNav">Sign in</button>
+                </div>
+            </div>
+        </nav>
+
+        <header>
+            <img id="title"
+                src="https://see.fontimg.com/api/rf5/VGgPx/NjNkMGY4YTUyMjMzNDU1MThiMzZmZGJjNTg3ZDFiZDgudHRm/QnVsbGV0IFN0dWR5/hateyourwriting.png?r=fs&h=131&w=1250&fg=A93546&bg=884444&tb=1&s=105"
+                alt="Bullet Journal fonts">
+            <img id="subtitle"
+                src="https://see.fontimg.com/api/rf5/rgnWL/NDg2YmQyMTY2MjlmNGUxNzg1Y2ZkZjdjZDYzYTA5M2Eub3Rm/T3JnYW5pemUgVHJhY2sgQWNoaWV2ZQ/santrome.png?r=fs&h=103&w=1250&fg=A93546&bg=884444&tb=1&s=82"
+                alt="Cursive fonts">
+        </header>
+
+        <main>
+            <section id="form">
+                <h1>Contact Form</h1>
+
+                <form>
+                    <span class="required">* Denotes Required Field</span><br>
+                    <label for="name">Name<span class="required"><sup>*</sup></span></label><br>
+                    <input type="text" id="name" name="user_name" placeholder="John Doe" required><br>
+
+                    <label for="mail">E-mail<span class="required"><sup>*</sup></span></label><br>
+                    <input type="email" id="mail" name="user_mail" placeholder="john_doe@example.com" required>
+                    <span class="hint">Proper format "name@something.com"</span><br>
+
+                    <label for="msg">Message<span class="required"><sup>*</sup></span></label><br>
+                    <textarea id="msg" name="user_message" placeholder="Your message" required cols="40"
+                        rows="6"></textarea><br>
+
+                    <!-- <input type="submit"> -->
+                    <button class="submit" name="submit" type="submit">Send your message</button>
+                </form>
+            </section>
+        </main>
+
+        <aside class="left">
+            <div class="topgradient"> </div>
+            <div class="bottomgradient"> </div>
+        </aside>
+        <aside class="right">
+            <a href="#top" id="topbutton">Back to the top!</a>
+            <div class="topgradient"> </div>
+            <div class="bottomgradient"> </div>
+        </aside>
+
+        <footer>
+            <!-- Navigation/Quick Links -->
+            <div class="footerlinks">
+                <h3>Build Your Bujo</h3>
+                <a href="#">My Bujo</a><br>
+                <a href="#">Schedule</a><br>
+                <a href="#">Calendar</a><br>
+                <a href="#">Widgets</a>
+            </div>
+            <div class="footerlinks">
+                <h3>About</h3>
+                <a href="#">Privacy Policy</a><br>
+                <a href="#">Terms of Service</a><br>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="footerlinks">
+                <h3>More</h3>
+                <a href="#">Premium account</a><br>
+                <a href="#">Customization</a><br>
+                <a href="#">Other Bujos</a>
+            </div>
+            <!-- Social Media icons -->
+            <div class="socialmedia">
+                <a href="https://www.instagram.com/" target="_blank"><img class="socialmediaicons" src="Imgs/icons/ig.png"
+                        alt="instagram icon"></a><br>
+                <a href="https://www.facebook.com" target="_blank"><img class="socialmediaicons" src="Imgs/icons/fb.png"
+                        alt="facebook icon"></a><br>
+            </div>
+            <div class="socialmedia">
+                <a href="https://www.twitter.com" target="_blank"><img class="socialmediaicons" src="Imgs/icons/tt.png"
+                        alt="twitter icon"></a><br>
+                <a href="https://www.youtube.com" target="_blank"><img class="socialmediaicons" src="Imgs/icons/yt.png"
+                        alt="youtube icon"></a>
+            </div>
+            <br>
+            <!-- Copyright Information -->
+            <div id="Copyright"> &copy; 2025 Bullet Study Journal. All rights reserved. </div>
+        </footer>
+    </div>
+</body>
+
+</html>
